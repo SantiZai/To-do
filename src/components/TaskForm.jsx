@@ -19,7 +19,7 @@ function TaskForm() {
   return (
     <div className="max-w-md mx-auto">
       <form onSubmit={handleSubmit} className="text-center mb-4 ">
-        <h1 className='text-2xl font-bold text-white mb-3'>Añadir tarea</h1>
+        <h1 className="text-2xl font-bold text-white mb-3">Añadir tarea</h1>
         <input
           placeholder="Escribe tu tarea"
           onChange={(e) => {
@@ -37,7 +37,9 @@ function TaskForm() {
           value={description}
           className="bg-slate-300 p-3 w-full mb-2 placeholder:text-center"
         />
-          <button className="bg-orange-500 px-3 py-1 text-white rounded-sm hover:bg-orange-600">Guardar</button>
+        <button className="bg-orange-500 px-3 py-1 text-white rounded-sm hover:bg-orange-600">
+          Guardar
+        </button>
       </form>
     </div>
   );

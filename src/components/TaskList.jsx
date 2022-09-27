@@ -6,7 +6,11 @@ function TaskList() {
   const { tasks } = useContext(TaskContext);
 
   if (tasks.length === 0) {
-    return <h1 className='text-4xl text-center text-white mt-10 font-bold'>No hay tareas</h1>;
+    return (
+      <h1 className="text-4xl text-center text-white mt-10 font-bold">
+        No hay tareas
+      </h1>
+    );
   }
 
   return (
